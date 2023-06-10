@@ -3,6 +3,19 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/soobhhann/mui-context-menu",
+  "repository": {
+    "url": "https://github.com/soobhhann/mui-context-menu"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "mui",
+    "context",
+    "react mui context menu",
+    "react right click",
+    "react context menu"
+  ],
   "files": [
     "dist",
     "src"
