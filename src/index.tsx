@@ -1,16 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Box, styled } from '@mui/material';
 import React, { FC, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-
-const ContextBox = styled(Box)(({ theme }: any) => ({
-  backgroundColor: theme.palette.background.default,
-  color: theme.palette.text.main,
-  zIndex: 9999,
-  // position: "absolute",
-  border: `1px solid ${theme.palette.grey[800]}`,
-  borderRadius: theme.shape.borderRadius,
-}));
+import ContextBox from './components/ContextBox';
 
 const MuiContextMenu: FC<{ menuItems: JSX.Element; children: any }> = ({
   children,
